@@ -78,7 +78,8 @@ img {
   box-sizing: border-box;
   width: 750px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 #left-container {
@@ -100,6 +101,10 @@ img {
   border-bottom-right-radius: 5px;
 }
 
+.page-link {
+  margin-left: 20px;
+}
+
 /* RESPONSIVE MODE */
 
 @media screen and (max-width: 720px) {
@@ -109,7 +114,8 @@ img {
     box-sizing: border-box;
     width: 375px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     align-items: center;
   }
 
